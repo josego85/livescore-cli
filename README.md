@@ -1,25 +1,25 @@
 <b>livescore-cli</b> - enjoy football scores live right from the linux terminal.
 
 ![Sample Run](http://i.imgur.com/yDR7Bxs.jpg)
-    
+
 ## DEPENDENCIES
-    
+
     1. BeautifulSoup (python-bs4)
 
     2. Requests (python-requests)
-    
+
 
 ## INSTALLATION
 
     git clone https://github.com/codeezer/livescore-cli.git
-  
+
     cd livescore-cli
-    
+
     ./setup (linux)
 
     ./mac_setup (mac)
-    
-    livescore -t bpl 
+
+    livescore -t paraguay
 
 
 ## Description
@@ -29,7 +29,7 @@ livescore-cli is a small commandline program to watch scores, tables and fixture
 ## Features
 
         1. Real Time Livescore
-        2. Game Time in Local Time 
+        2. Game Time in Local Time
         3. League Table with division
         4. Top Scorer of each League
         5. Live Soccer News
@@ -41,9 +41,9 @@ livescore-cli is a small commandline program to watch scores, tables and fixture
 ## USAGE
 
     usage: livescore.py [-h] [-v] [-t] [-s] [-ts] LEAGUE [LEAGUE ...]
-    
+
     A simple livescore tool. Currently works only for the Limited Leagues.
-    
+
     positional arguments:
       LEAGUE          The league for which the details have to be displayed.
                                    Allowed values are [bundesliga, ligue1, seriea, bpl,
@@ -56,10 +56,10 @@ livescore-cli is a small commandline program to watch scores, tables and fixture
       -t, --table     Display the League Table
       -s, --score     Display the Score
       -ts, --scorers  Display the Top Scorers
-    
+
     Sample uses: python livescore.py --table bpl laliga
-                 python livescore.py -s bpl
-                 python livescore.py -t -s -ts bpl laliga seriea
+                 python livescore.py -s paraguay
+                 python livescore.py -t -s -ts bpl paraguay seriea
 
 ## UPCOMING FEATURES
 

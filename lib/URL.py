@@ -21,7 +21,10 @@ URL = {
 
     'portugal': ["Portugese Primera Liga",\
                  'http://www.livescores.com/soccer/portugal/liga-sagres/',\
-                 'http://www.bbc.com/sport/football/portuguese-primeira-liga/top-scorers']
+                 'http://www.bbc.com/sport/football/portuguese-primeira-liga/top-scorers'],
+
+    'paraguay': ["Paraguay Primera Division - Clausura",\
+                 'http://www.livescores.com/soccer/paraguay/clausura/']
 }
 
 soccer_tn = 'http://www.soccernews.com/category/transfer-news/feed/'
