@@ -19,7 +19,7 @@
 
     ./mac_setup (mac)
 
-    livescore -t paraguay
+    python livescore.py -t paraguay
 
 
 ## Description
